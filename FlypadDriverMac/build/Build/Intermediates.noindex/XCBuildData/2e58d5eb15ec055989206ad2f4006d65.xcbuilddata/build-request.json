@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "aebbb038f580f9541f067c8fe75ad2d777f77d96706bfe618e336925d865c338"
+    }
+  ],
+  "containerPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx27.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Build/Products",
+      "derivedDataPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build",
+      "indexDataStoreFolderPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "232",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

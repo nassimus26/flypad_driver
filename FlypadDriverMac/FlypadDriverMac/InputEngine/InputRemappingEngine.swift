@@ -33,12 +33,13 @@ public actor InputRemappingEngine {
         state.button2 = telemetry.button2
         state.buttonA = telemetry.buttonA
         state.buttonB = telemetry.buttonB
-        state.buttonTakeoffLand = telemetry.buttonTakeoffLand
         state.buttonFlip = telemetry.buttonFlip
         state.buttonL1 = telemetry.buttonL1
         state.buttonR1 = telemetry.buttonR1
         state.triggerL2 = telemetry.buttonL2 ? 1.0 : 0.0
         state.triggerR2 = telemetry.buttonR2 ? 1.0 : 0.0
+        state.buttonL3 = telemetry.buttonL3
+        state.buttonR3 = telemetry.buttonR3
 
         return state
     }
@@ -58,12 +59,13 @@ public actor InputRemappingEngine {
         case .button2: return telemetry.button2
         case .buttonA: return telemetry.buttonA
         case .buttonB: return telemetry.buttonB
-        case .buttonTakeoffLand: return telemetry.buttonTakeoffLand
         case .buttonFlip: return telemetry.buttonFlip
         case .buttonL1: return telemetry.buttonL1
         case .buttonR1: return telemetry.buttonR1
         case .buttonL2: return telemetry.buttonL2
         case .buttonR2: return telemetry.buttonR2
+        case .buttonL3: return telemetry.buttonL3
+        case .buttonR3: return telemetry.buttonR3
         }
     }
 

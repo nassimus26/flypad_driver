@@ -28,18 +28,51 @@ public struct MainView: View {
 
     public var body: some View {
         NavigationSplitView {
-            List(selection: $selectedTab) {
-                NavigationLink(value: Tab.scanner) {
-                    Label("Status / Scan", systemImage: "antenna.radiowaves.left.and.right")
+            VStack(alignment: .leading, spacing: 0) {
+                List(selection: $selectedTab) {
+                    NavigationLink(value: Tab.scanner) {
+                        Label("Status / Scan", systemImage: "antenna.radiowaves.left.and.right")
+                    }
+                    NavigationLink(value: Tab.visualizer) {
+                        Label("Input Visualizer", systemImage: "gamecontroller.fill")
+                    }
+                    NavigationLink(value: Tab.mapping) {
+                        Label("Mapping Config", systemImage: "slider.horizontal.3")
+                    }
                 }
-                NavigationLink(value: Tab.visualizer) {
-                    Label("Input Visualizer", systemImage: "gamecontroller.fill")
+                .listStyle(.sidebar)
+
+                Divider()
+
+                // Footer Website Links
+                VStack(alignment: .leading, spacing: 8) {
+                    Link(destination: URL(string: "https://pairhint.com")!) {
+                        HStack(spacing: 6) {
+                            Image(systemName: "link")
+                                .font(.caption2)
+                            Text("https://pairhint.com")
+                                .font(.caption)
+                                .bold()
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundColor(.accentColor)
+
+                    Link(destination: URL(string: "https://castmypitch.com")!) {
+                        HStack(spacing: 6) {
+                            Image(systemName: "link")
+                                .font(.caption2)
+                            Text("https://castmypitch.com")
+                                .font(.caption)
+                                .bold()
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundColor(.accentColor)
                 }
-                NavigationLink(value: Tab.mapping) {
-                    Label("Mapping Config", systemImage: "slider.horizontal.3")
-                }
+                .padding(12)
             }
-            .listStyle(.sidebar)
+            .navigationSplitViewColumnWidth(min: 176, ideal: 194, max: 246)
             .navigationTitle("Flypad Driver")
         } detail: {
             switch selectedTab {
@@ -53,9 +86,18 @@ public struct MainView: View {
         }
         .task {
             await visualizerViewModel.setupVirtualController()
+            // Sync initial loaded profile from mappingViewModel to visualizerViewModel
+            visualizerViewModel.updateProfile(mappingViewModel.profile)
         }
         .onChange(of: mappingViewModel.profile) { _, newProfile in
-            visualizerViewModel.updateProfile(newProfile)
+            if visualizerViewModel.profile != newProfile {
+                visualizerViewModel.updateProfile(newProfile)
+            }
+        }
+        .onChange(of: visualizerViewModel.profile) { _, newProfile in
+            if mappingViewModel.profile != newProfile {
+                mappingViewModel.profile = newProfile
+            }
         }
     }
 }

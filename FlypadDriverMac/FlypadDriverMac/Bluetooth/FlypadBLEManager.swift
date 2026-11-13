@@ -49,7 +49,10 @@ public final class FlypadBLEManager: NSObject, ObservableObject {
 
     private var centralManager: CBCentralManager!
     private var activePeripheral: CBPeripheral?
+    private var batteryCharacteristic: CBCharacteristic?
+
     private var packetCount = 0
+    private var batteryPollCounter = 0
     private var lastPacketTimestamp: Date?
     private var noPacketSeconds = 0
     private var rateTimer: Timer?
@@ -112,6 +115,7 @@ public final class FlypadBLEManager: NSObject, ObservableObject {
             centralManager.cancelPeripheralConnection(peripheral)
         }
         activePeripheral = nil
+        batteryCharacteristic = nil
         lastPacketTimestamp = nil
         noPacketSeconds = 0
         connectionState = .disconnected
@@ -151,12 +155,23 @@ public final class FlypadBLEManager: NSObject, ObservableObject {
                         self.log("Active peripheral state is .disconnected. Updating connection state...")
                         self.connectionState = .disconnected
                         self.activePeripheral = nil
+                        self.batteryCharacteristic = nil
                         return
                     }
                 }
 
-                // 2. Watchdog for sudden power off / battery loss
+                // 2. Poll battery characteristic every 15 seconds
                 if case .ready = self.connectionState {
+                    self.batteryPollCounter += 1
+                    if self.batteryPollCounter >= 15 {
+                        self.batteryPollCounter = 0
+                        if let peripheral = self.activePeripheral, let bChar = self.batteryCharacteristic {
+                            self.log("Polling battery characteristic 2A19...")
+                            peripheral.readValue(for: bChar)
+                        }
+                    }
+
+                    // Watchdog for sudden power off / battery loss
                     if let lastTime = self.lastPacketTimestamp {
                         let secondsSinceLastPacket = Date().timeIntervalSince(lastTime)
                         if secondsSinceLastPacket > 3.0 {
@@ -253,6 +268,7 @@ extension FlypadBLEManager: CBCentralManagerDelegate {
             self.logError("FAILED to connect to peripheral '\(peripheral.name ?? "unnamed")': \(errStr)")
             self.connectionState = .error("Connection failed: \(errStr)")
             self.activePeripheral = nil
+            self.batteryCharacteristic = nil
         }
     }
 
@@ -266,6 +282,7 @@ extension FlypadBLEManager: CBCentralManagerDelegate {
                 self.connectionState = .disconnected
             }
             self.activePeripheral = nil
+            self.batteryCharacteristic = nil
             self.lastPacketTimestamp = nil
             self.noPacketSeconds = 0
         }
@@ -312,6 +329,11 @@ extension FlypadBLEManager: CBPeripheralDelegate {
             for characteristic in characteristics {
                 let props = characteristic.properties
                 self.log("Characteristic UUID: \(characteristic.uuid.uuidString) | Properties: \(props.rawValue)")
+
+                if characteristic.uuid == Self.batteryLevelCharacteristicUUID || characteristic.uuid.uuidString.contains("2A19") {
+                    self.batteryCharacteristic = characteristic
+                    self.log("Found Battery Service characteristic 2A19")
+                }
 
                 if props.contains(.notify) || props.contains(.indicate) {
                     self.log("Enabling notifications on characteristic \(characteristic.uuid.uuidString)...")

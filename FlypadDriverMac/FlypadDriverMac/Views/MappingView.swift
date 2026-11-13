@@ -31,33 +31,6 @@ public struct MappingView: View {
                 .background(Color(NSColor.controlBackgroundColor))
                 .cornerRadius(12)
 
-                // Invert Y-Axis (Top & Bottom Direction) Checkboxes
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("Invert Y-Axis (Top & Bottom Motion)")
-                        .font(.headline)
-                    Text("Toggle these checkboxes to invert top and bottom pitch/gaz stick directions per your preference.")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-
-                    HStack(spacing: 32) {
-                        Toggle("Invert Left Stick Y (Top / Bottom)", isOn: Binding(
-                            get: { viewModel.profile.axisMappings[.pitch]?.isInverted ?? false },
-                            set: { _ in viewModel.toggleAxisInversion(source: .pitch) }
-                        ))
-                        .toggleStyle(.checkbox)
-
-                        Toggle("Invert Right Stick Y (Top / Bottom)", isOn: Binding(
-                            get: { viewModel.profile.axisMappings[.gaz]?.isInverted ?? false },
-                            set: { _ in viewModel.toggleAxisInversion(source: .gaz) }
-                        ))
-                        .toggleStyle(.checkbox)
-                    }
-                    .padding(.top, 4)
-                }
-                .padding()
-                .background(Color(NSColor.controlBackgroundColor))
-                .cornerRadius(12)
-
                 // Global Deadzone Slider
                 VStack(alignment: .leading, spacing: 8) {
                     HStack {
@@ -83,7 +56,7 @@ public struct MappingView: View {
                 .background(Color(NSColor.controlBackgroundColor))
                 .cornerRadius(12)
 
-                // Axis Mapping Controls
+                // Axis Mapping Controls (Covers all 4 axes: Roll, Pitch, Yaw, Gaz)
                 VStack(alignment: .leading, spacing: 12) {
                     Text("Analog Stick Axis Configuration")
                         .font(.headline)

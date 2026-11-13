@@ -94,8 +94,9 @@ public struct VisualizerView: View {
                         ButtonPillView(title: "Button 2", isPressed: viewModel.mappedState.button2)
                         ButtonPillView(title: "Button A", isPressed: viewModel.mappedState.buttonA)
                         ButtonPillView(title: "Button B", isPressed: viewModel.mappedState.buttonB)
-                        ButtonPillView(title: "Takeoff / Land", isPressed: viewModel.mappedState.buttonTakeoffLand)
                         ButtonPillView(title: "Flip", isPressed: viewModel.mappedState.buttonFlip)
+                        ButtonPillView(title: "L3 Click", isPressed: viewModel.mappedState.buttonL3)
+                        ButtonPillView(title: "R3 Click", isPressed: viewModel.mappedState.buttonR3)
                     }
                 }
                 .padding()

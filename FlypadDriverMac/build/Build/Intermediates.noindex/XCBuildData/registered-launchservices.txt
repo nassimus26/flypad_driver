@@ -1,0 +1,2 @@
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Build/Products/Release/FlypadDriverMac.app
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/build/Build/Products/Release/FlypadDriverMac.app
