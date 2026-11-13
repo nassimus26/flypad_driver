@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* App/FlypadDriverMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* App/FlypadDriverMacApp.swift */; };
+		100000000000000000000002 /* Models/FlypadTelemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* Models/FlypadTelemetry.swift */; };
+		100000000000000000000003 /* Models/MappedGamepadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* Models/MappedGamepadState.swift */; };
+		100000000000000000000004 /* Models/RemappingProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* Models/RemappingProfile.swift */; };
+		100000000000000000000005 /* Models/GamepadMappingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* Models/GamepadMappingTypes.swift */; };
+		100000000000000000000006 /* Bluetooth/FlypadTelemetryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* Bluetooth/FlypadTelemetryParser.swift */; };
+		100000000000000000000007 /* Bluetooth/FlypadBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* Bluetooth/FlypadBLEManager.swift */; };
+		100000000000000000000008 /* InputEngine/InputRemappingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* InputEngine/InputRemappingEngine.swift */; };
+		100000000000000000000009 /* InputEngine/VirtualGamepadPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* InputEngine/VirtualGamepadPublisher.swift */; };
+		10000000000000000000000A /* ViewModels/ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* ViewModels/ScannerViewModel.swift */; };
+		10000000000000000000000B /* ViewModels/VisualizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* ViewModels/VisualizerViewModel.swift */; };
+		10000000000000000000000C /* ViewModels/MappingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000C /* ViewModels/MappingViewModel.swift */; };
+		10000000000000000000000D /* Views/ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* Views/ScannerView.swift */; };
+		10000000000000000000000E /* Views/VisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* Views/VisualizerView.swift */; };
+		10000000000000000000000F /* Views/MappingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* Views/MappingView.swift */; };
+		100000000000000000000010 /* Views/MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* Views/MainView.swift */; };
+		100000000000000000000011 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300000000000000000000001 /* CoreBluetooth.framework */; };
+		100000000000000000000012 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300000000000000000000002 /* GameController.framework */; };
+		100000000000000000000013 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300000000000000000000003 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* App/FlypadDriverMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/FlypadDriverMacApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* Models/FlypadTelemetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/FlypadTelemetry.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* Models/MappedGamepadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/MappedGamepadState.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* Models/RemappingProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RemappingProfile.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* Models/GamepadMappingTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/GamepadMappingTypes.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* Bluetooth/FlypadTelemetryParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/FlypadTelemetryParser.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* Bluetooth/FlypadBLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/FlypadBLEManager.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* InputEngine/InputRemappingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputEngine/InputRemappingEngine.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* InputEngine/VirtualGamepadPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputEngine/VirtualGamepadPublisher.swift; sourceTree = "<group>"; };
+		20000000000000000000000A /* ViewModels/ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/ScannerViewModel.swift; sourceTree = "<group>"; };
+		20000000000000000000000B /* ViewModels/VisualizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/VisualizerViewModel.swift; sourceTree = "<group>"; };
+		20000000000000000000000C /* ViewModels/MappingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/MappingViewModel.swift; sourceTree = "<group>"; };
+		20000000000000000000000D /* Views/ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ScannerView.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* Views/VisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/VisualizerView.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* Views/MappingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MappingView.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* Views/MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MainView.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000000000000000000012 /* FlypadDriverMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlypadDriverMac.entitlements; sourceTree = "<group>"; };
+		300000000000000000000001 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		300000000000000000000002 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		300000000000000000000003 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A00000000000000000000001 /* FlypadDriverMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlypadDriverMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000011 /* CoreBluetooth.framework in Frameworks */,
+				100000000000000000000012 /* GameController.framework in Frameworks */,
+				100000000000000000000013 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				500000000000000000000002 /* FlypadDriverMac */,
+				500000000000000000000003 /* Frameworks */,
+				500000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		500000000000000000000002 /* FlypadDriverMac */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* App/FlypadDriverMacApp.swift */,
+				200000000000000000000002 /* Models/FlypadTelemetry.swift */,
+				200000000000000000000003 /* Models/MappedGamepadState.swift */,
+				200000000000000000000004 /* Models/RemappingProfile.swift */,
+				200000000000000000000005 /* Models/GamepadMappingTypes.swift */,
+				200000000000000000000006 /* Bluetooth/FlypadTelemetryParser.swift */,
+				200000000000000000000007 /* Bluetooth/FlypadBLEManager.swift */,
+				200000000000000000000008 /* InputEngine/InputRemappingEngine.swift */,
+				200000000000000000000009 /* InputEngine/VirtualGamepadPublisher.swift */,
+				20000000000000000000000A /* ViewModels/ScannerViewModel.swift */,
+				20000000000000000000000B /* ViewModels/VisualizerViewModel.swift */,
+				20000000000000000000000C /* ViewModels/MappingViewModel.swift */,
+				20000000000000000000000D /* Views/ScannerView.swift */,
+				20000000000000000000000E /* Views/VisualizerView.swift */,
+				20000000000000000000000F /* Views/MappingView.swift */,
+				200000000000000000000010 /* Views/MainView.swift */,
+				200000000000000000000011 /* Info.plist */,
+				200000000000000000000012 /* FlypadDriverMac.entitlements */,
+			);
+			path = FlypadDriverMac;
+			sourceTree = "<group>";
+		};
+		500000000000000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300000000000000000000001 /* CoreBluetooth.framework */,
+				300000000000000000000002 /* GameController.framework */,
+				300000000000000000000003 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		500000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* FlypadDriverMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600000000000000000000001 /* FlypadDriverMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700000000000000000000001 /* Build configuration list for PBXNativeTarget "FlypadDriverMac" */;
+			buildPhases = (
+				800000000000000000000001 /* Sources */,
+				400000000000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlypadDriverMac;
+			productName = FlypadDriverMac;
+			productReference = A00000000000000000000001 /* FlypadDriverMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					600000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 700000000000000000000002 /* Build configuration list for PBXProject "FlypadDriverMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 500000000000000000000001;
+			productRefGroup = 500000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600000000000000000000001 /* FlypadDriverMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* App/FlypadDriverMacApp.swift in Sources */,
+				100000000000000000000002 /* Models/FlypadTelemetry.swift in Sources */,
+				100000000000000000000003 /* Models/MappedGamepadState.swift in Sources */,
+				100000000000000000000004 /* Models/RemappingProfile.swift in Sources */,
+				100000000000000000000005 /* Models/GamepadMappingTypes.swift in Sources */,
+				100000000000000000000006 /* Bluetooth/FlypadTelemetryParser.swift in Sources */,
+				100000000000000000000007 /* Bluetooth/FlypadBLEManager.swift in Sources */,
+				100000000000000000000008 /* InputEngine/InputRemappingEngine.swift in Sources */,
+				100000000000000000000009 /* InputEngine/VirtualGamepadPublisher.swift in Sources */,
+				10000000000000000000000A /* ViewModels/ScannerViewModel.swift in Sources */,
+				10000000000000000000000B /* ViewModels/VisualizerViewModel.swift in Sources */,
+				10000000000000000000000C /* ViewModels/MappingViewModel.swift in Sources */,
+				10000000000000000000000D /* Views/ScannerView.swift in Sources */,
+				10000000000000000000000E /* Views/VisualizerView.swift in Sources */,
+				10000000000000000000000F /* Views/MappingView.swift in Sources */,
+				100000000000000000000010 /* Views/MainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		700000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FlypadDriverMac/FlypadDriverMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZ26CQP633;
+				INFOPLIST_FILE = FlypadDriverMac/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlypadDriverMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		700000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FlypadDriverMac/FlypadDriverMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZ26CQP633;
+				INFOPLIST_FILE = FlypadDriverMac/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlypadDriverMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		700000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		700000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700000000000000000000001 /* Build configuration list for PBXNativeTarget "FlypadDriverMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700000000000000000000003 /* Debug */,
+				700000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700000000000000000000002 /* Build configuration list for PBXProject "FlypadDriverMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700000000000000000000005 /* Debug */,
+				700000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900000000000000000000001 /* Project object */;
+}

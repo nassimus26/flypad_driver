@@ -1,0 +1,16 @@
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/App/FlypadDriverMacApp.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Bluetooth/FlypadBLEManager.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Bluetooth/FlypadTelemetryParser.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/InputEngine/InputRemappingEngine.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/InputEngine/VirtualGamepadPublisher.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/FlypadTelemetry.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/GamepadMappingTypes.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/MappedGamepadState.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/RemappingProfile.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/ViewModels/MappingViewModel.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/ViewModels/ScannerViewModel.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/ViewModels/VisualizerViewModel.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/MainView.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/MappingView.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/ScannerView.swift
+/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/VisualizerView.swift

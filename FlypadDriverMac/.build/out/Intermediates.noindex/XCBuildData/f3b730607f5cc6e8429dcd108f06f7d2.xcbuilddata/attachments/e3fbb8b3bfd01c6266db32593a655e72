@@ -1,0 +1,169 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMac-primary.dia",
+    "emit-module-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMac-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMac-primary-emit-module.dia",
+    "pch" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMac-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMac-primary.swiftdeps"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/App/FlypadDriverMacApp.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadDriverMacApp~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Bluetooth/FlypadBLEManager.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadBLEManager~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Bluetooth/FlypadTelemetryParser.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetryParser~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/InputEngine/InputRemappingEngine.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/InputRemappingEngine~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/InputEngine/VirtualGamepadPublisher.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VirtualGamepadPublisher~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/FlypadTelemetry.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/FlypadTelemetry~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/GamepadMappingTypes.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/GamepadMappingTypes~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/MappedGamepadState.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappedGamepadState~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Models/RemappingProfile.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/RemappingProfile~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/ViewModels/MappingViewModel.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingViewModel~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/ViewModels/ScannerViewModel.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerViewModel~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/ViewModels/VisualizerViewModel.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerViewModel~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/MainView.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MainView~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/MappingView.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/MappingView~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/ScannerView.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/ScannerView~partial.swiftmodule"
+  },
+  "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/FlypadDriverMac/Views/VisualizerView.swift" : {
+    "const-values" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.swiftconstvalues",
+    "dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.d",
+    "diagnostics" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.dia",
+    "index-unit-output-path" : "/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.o",
+    "llvm-bc" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.bc",
+    "object" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.o",
+    "swift-dependencies" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView.swiftdeps",
+    "swiftmodule" : "/Users/mk/AndroidStudioProjects/flypad_driver/FlypadDriverMac/.build/out/Intermediates.noindex/FlypadDriverMac.build/Debug/FlypadDriverMac-p.build/Objects-normal/arm64/VisualizerView~partial.swiftmodule"
+  }
+}
