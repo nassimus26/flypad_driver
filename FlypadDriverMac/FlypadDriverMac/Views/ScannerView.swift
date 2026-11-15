@@ -27,6 +27,37 @@ public struct ScannerView: View {
             .background(Color(NSColor.controlBackgroundColor))
             .cornerRadius(12)
 
+            // Bluetooth Permission Alert Banner
+            if case .error(let errMsg) = viewModel.bleManager.connectionState, errMsg.contains("Privacy & Security") {
+                HStack(spacing: 12) {
+                    Image(systemName: "lock.shield.fill")
+                        .font(.title2)
+                        .foregroundColor(.red)
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Bluetooth Permission Required")
+                            .font(.headline)
+                            .bold()
+                        Text("macOS requires Bluetooth permission to scan and connect to your Parrot Flypad.")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+
+                    Spacer()
+
+                    Button("Open System Settings") {
+                        if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Bluetooth") {
+                            NSWorkspace.shared.open(url)
+                        }
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(.blue)
+                }
+                .padding()
+                .background(Color.red.opacity(0.12))
+                .cornerRadius(10)
+            }
+
             // Action Toolbar & Filter Toggle
             HStack(spacing: 16) {
                 if viewModel.bleManager.connectionState == .scanning {
