@@ -46,8 +46,16 @@ fi
 echo -e "${GREEN}==> Creating standalone application bundle...${NC}"
 cp -R "${BUILT_APP_PATH}" "${OUTPUT_DIR}/${APP_NAME}"
 
-echo -e "${GREEN}==> Applying local ad-hoc code signature...${NC}"
-codesign --force --deep --sign - "${OUTPUT_DIR}/${APP_NAME}"
+# Sign with a stable identity so macOS privacy permissions (Accessibility) survive rebuilds.
+# Ad-hoc signatures change on every build, which makes macOS forget the permission.
+SIGN_ID=$(security find-identity -v -p codesigning | awk -F'"' '/Apple Development|Developer ID Application/ {print $2; exit}')
+if [ -n "${SIGN_ID}" ]; then
+    echo -e "${GREEN}==> Signing with stable identity: ${SIGN_ID}${NC}"
+    codesign --force --deep --options runtime --sign "${SIGN_ID}" "${OUTPUT_DIR}/${APP_NAME}"
+else
+    echo -e "${RED}==> No signing certificate found, falling back to ad-hoc (permissions reset on each rebuild)${NC}"
+    codesign --force --deep --sign - "${OUTPUT_DIR}/${APP_NAME}"
+fi
 
 echo -e "${BLUE}====================================================${NC}"
 echo -e "${GREEN} SUCCESS: ${APP_NAME} generated successfully!${NC}"

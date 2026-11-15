@@ -32,29 +32,52 @@ public struct VisualizerView: View {
                 HStack(spacing: 24) {
                     MetricCard(title: "Packet Rate", value: "\(viewModel.packetsPerSecond) Hz", icon: "waveform.path.ecg")
                     MetricCard(title: "Battery Level", value: viewModel.rawTelemetry.batteryLevel >= 0 ? "\(viewModel.rawTelemetry.batteryLevel)%" : "N/A", icon: "battery.100")
-                    MetricCard(title: "Virtual Controller", value: viewModel.virtualControllerConnected ? "Active" : "Inactive", icon: "gamecontroller", valueColor: viewModel.virtualControllerConnected ? .green : .red)
+                    MetricCard(
+                        title: "Emulator Link (DSU 127.0.0.1:26760)",
+                        value: !viewModel.dsuRunning ? "Port unavailable" : (viewModel.dsuClientCount > 0 ? "\(viewModel.dsuClientCount) emulator(s) connected" : "Waiting for emulator"),
+                        icon: "gamecontroller",
+                        valueColor: !viewModel.dsuRunning ? .red : (viewModel.dsuClientCount > 0 ? .green : .orange)
+                    )
                 }
 
-                // Input Monitoring Permission Alert Banner
-                if !viewModel.virtualControllerConnected {
+                // Virtual controller / keyboard emulation status banners
+                if !viewModel.virtualControllerConnected && !viewModel.dsuRunning {
+                    HStack(spacing: 12) {
+                        Image(systemName: "info.circle.fill")
+                            .font(.title2)
+                            .foregroundColor(.blue)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Virtual HID Gamepad Unavailable")
+                                .font(.headline)
+                                .bold()
+                            Text(viewModel.virtualControllerStatus)
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                        }
+                        Spacer()
+                    }
+                    .padding()
+                    .background(Color.blue.opacity(0.10))
+                    .cornerRadius(10)
+                }
+
+                if !viewModel.keyboardEmulationAllowed {
                     HStack(spacing: 12) {
                         Image(systemName: "lock.shield.fill")
                             .font(.title2)
                             .foregroundColor(.orange)
-
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("Virtual Controller Requires Input Monitoring Permission")
+                            Text("Keyboard Emulation Requires Accessibility Permission")
                                 .font(.headline)
                                 .bold()
-                            Text("Turn ON the toggle for FlypadDriverMac in macOS System Settings > Privacy & Security > Input Monitoring.")
+                            Text("Turn ON FlypadDriverMac in System Settings > Privacy & Security > Accessibility, then relaunch the app.")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                         }
-
                         Spacer()
-
                         Button("Open System Settings") {
-                            if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_ListenEvent") {
+                            viewModel.requestKeyboardEmulationAccess()
+                            if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility") {
                                 NSWorkspace.shared.open(url)
                             }
                         }

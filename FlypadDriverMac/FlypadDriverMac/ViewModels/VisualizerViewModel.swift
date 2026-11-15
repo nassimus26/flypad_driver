@@ -1,3 +1,4 @@
+import CoreGraphics
 import Foundation
 import Combine
 
@@ -11,6 +12,11 @@ public final class VisualizerViewModel: ObservableObject {
 
     private let bleManager: FlypadBLEManager
     private let virtualPublisher: VirtualGamepadPublisher
+    public var virtualControllerStatus: String { virtualPublisher.statusMessage }
+    public var dsuRunning: Bool { virtualPublisher.dsuRunning }
+    public var dsuClientCount: Int { virtualPublisher.dsuClientCount }
+    @Published public private(set) var keyboardEmulationAllowed: Bool = CGPreflightPostEventAccess()
+    public func requestKeyboardEmulationAccess() { virtualPublisher.requestKeyboardPostAccess() }
     private let remappingEngine = InputRemappingEngine()
     @Published public var profile: RemappingProfile = RemappingProfile()
 
@@ -77,6 +83,13 @@ public final class VisualizerViewModel: ObservableObject {
                 }
             }
             .store(in: &cancellables)
+
+        // Re-check Accessibility every 2 s so the banner disappears as soon as it is granted.
+        Timer.publish(every: 2, on: .main, in: .common)
+            .autoconnect()
+            .map { _ in CGPreflightPostEventAccess() }
+            .removeDuplicates()
+            .assign(to: &$keyboardEmulationAllowed)
 
         bleManager.$packetsPerSecond
             .receive(on: RunLoop.main)
