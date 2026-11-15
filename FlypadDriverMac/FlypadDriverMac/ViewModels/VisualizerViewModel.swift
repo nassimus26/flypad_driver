@@ -84,7 +84,11 @@ public final class VisualizerViewModel: ObservableObject {
 
         virtualPublisher.$isConnected
             .receive(on: RunLoop.main)
-            .assign(to: &$virtualControllerConnected)
+            .sink { [weak self] isConnected in
+                self?.virtualControllerConnected = isConnected
+                self?.objectWillChange.send()
+            }
+            .store(in: &cancellables)
     }
 
     public func updateProfile(_ newProfile: RemappingProfile) {

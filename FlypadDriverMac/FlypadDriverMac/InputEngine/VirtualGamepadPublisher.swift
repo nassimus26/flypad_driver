@@ -7,6 +7,12 @@ private typealias IOHIDUserDeviceCreateFunc = @convention(c) (
     CFDictionary
 ) -> Unmanaged<AnyObject>?
 
+private typealias IOHIDUserDeviceScheduleWithRunLoopFunc = @convention(c) (
+    Unmanaged<AnyObject>,
+    CFRunLoop,
+    CFString
+) -> Void
+
 private typealias IOHIDUserDeviceHandleReportFunc = @convention(c) (
     Unmanaged<AnyObject>,
     UnsafePointer<UInt8>,
@@ -28,6 +34,15 @@ public final class VirtualGamepadPublisher: ObservableObject {
             return nil
         }
         return unsafeBitCast(sym, to: IOHIDUserDeviceCreateFunc.self)
+    }()
+
+    private lazy var ioHIDUserDeviceScheduleWithRunLoopPtr: IOHIDUserDeviceScheduleWithRunLoopFunc? = {
+        guard let handle = dlopen("/System/Library/Frameworks/IOKit.framework/IOKit", RTLD_LAZY),
+              let sym = dlsym(handle, "IOHIDUserDeviceScheduleWithRunLoop") else {
+            print("[VirtualGamepad ERROR] Could not locate IOHIDUserDeviceScheduleWithRunLoop symbol")
+            return nil
+        }
+        return unsafeBitCast(sym, to: IOHIDUserDeviceScheduleWithRunLoopFunc.self)
     }()
 
     private lazy var ioHIDUserDeviceHandleReportPtr: IOHIDUserDeviceHandleReportFunc? = {
@@ -103,9 +118,12 @@ public final class VirtualGamepadPublisher: ObservableObject {
 
         if let dev = createFunc(kCFAllocatorDefault, properties as CFDictionary) {
             self.rawUserDevice = dev
+            if let scheduleFunc = ioHIDUserDeviceScheduleWithRunLoopPtr {
+                scheduleFunc(dev, CFRunLoopGetMain(), CFRunLoopMode.defaultMode.rawValue)
+            }
             self.isConnected = true
             self.statusMessage = "Active (System-wide Virtual HID Gamepad)"
-            print("[VirtualGamepad] Successfully created and published IOHIDUserDevice Virtual Gamepad to macOS HID system!")
+            print("[VirtualGamepad] Successfully created and scheduled IOHIDUserDevice Virtual Gamepad to macOS HID system!")
         } else {
             self.isConnected = false
             self.statusMessage = "Failed to create HID Gamepad"
