@@ -90,7 +90,7 @@
 			<key>uniqueIdentifier</key>
 			<string>49D4A07D-F7A6-49BB-A5B6-E385D1574D5F</string>
 		</dict>
-		<key>573AEDC4-AA89-4D33-98E6-CC6E724D29F9</key>
+		<key>526F59F6-63CD-442A-81DD-ADB3751086C0</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -99,7 +99,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>573AEDC4-AA89-4D33-98E6-CC6E724D29F9.xcactivitylog</string>
+			<string>526F59F6-63CD-442A-81DD-ADB3751086C0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -124,13 +124,13 @@
 			<key>signature</key>
 			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>816396282.18761003</real>
+			<real>816396966.26245797</real>
 			<key>timeStoppedRecording</key>
-			<real>816396297.22369802</real>
+			<real>816396967.49361205</real>
 			<key>title</key>
 			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>573AEDC4-AA89-4D33-98E6-CC6E724D29F9</string>
+			<string>526F59F6-63CD-442A-81DD-ADB3751086C0</string>
 		</dict>
 		<key>A7F85F54-A69C-4C76-A383-2C72A77F55E3</key>
 		<dict>

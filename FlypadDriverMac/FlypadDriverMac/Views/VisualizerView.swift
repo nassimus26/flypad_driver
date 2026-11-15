@@ -35,6 +35,37 @@ public struct VisualizerView: View {
                     MetricCard(title: "Virtual Controller", value: viewModel.virtualControllerConnected ? "Active" : "Inactive", icon: "gamecontroller", valueColor: viewModel.virtualControllerConnected ? .green : .red)
                 }
 
+                // Input Monitoring Permission Alert Banner
+                if !viewModel.virtualControllerConnected {
+                    HStack(spacing: 12) {
+                        Image(systemName: "lock.shield.fill")
+                            .font(.title2)
+                            .foregroundColor(.orange)
+
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Virtual Controller Requires Input Monitoring Permission")
+                                .font(.headline)
+                                .bold()
+                            Text("Turn ON the toggle for FlypadDriverMac in macOS System Settings > Privacy & Security > Input Monitoring.")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                        }
+
+                        Spacer()
+
+                        Button("Open System Settings") {
+                            if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_ListenEvent") {
+                                NSWorkspace.shared.open(url)
+                            }
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .tint(.orange)
+                    }
+                    .padding()
+                    .background(Color.orange.opacity(0.12))
+                    .cornerRadius(10)
+                }
+
                 // Invert Top/Bottom Checkboxes Quick Controls
                 HStack(spacing: 32) {
                     Toggle("Invert Left Y (Top ↔ Bottom)", isOn: Binding(

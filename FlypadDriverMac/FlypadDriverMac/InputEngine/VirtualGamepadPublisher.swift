@@ -126,8 +126,8 @@ public final class VirtualGamepadPublisher: ObservableObject {
             print("[VirtualGamepad] Successfully created and scheduled IOHIDUserDevice Virtual Gamepad to macOS HID system!")
         } else {
             self.isConnected = false
-            self.statusMessage = "Failed to create HID Gamepad"
-            print("[VirtualGamepad ERROR] Failed to create IOHIDUserDevice instance.")
+            self.statusMessage = "Input Monitoring Permission Required"
+            print("[VirtualGamepad ERROR] Failed to create IOHIDUserDevice instance due to macOS Input Monitoring permissions.")
         }
     }
 
