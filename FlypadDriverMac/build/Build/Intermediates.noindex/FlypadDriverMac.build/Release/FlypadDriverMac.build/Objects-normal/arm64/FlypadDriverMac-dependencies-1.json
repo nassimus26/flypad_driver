@@ -211,469 +211,469 @@
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Accessibility.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Accessibility-B928GPI7KYGLG8T6CZ1SI2ISQ.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Accessibility-8G6E8IVXX1R39K8TI9SWC9I6P.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Accessibility"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/AppKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/AppKit-ESPYWVRJA7AXPR0YQDDL6AIW.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/AppKit-6LJV4ITP47NW6QVYE5460YZSA.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AppKit"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ApplicationServices.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ApplicationServices-2H7PT1ZLEX094C3OJ5RUH30D7.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ApplicationServices-39M1P07UVSSJNLNZR8J4NP265.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ApplicationServices"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CFNetwork-63RX5ZBG3EAB166M58KM3IT6H.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CFNetwork-7E5BGY7FYZLT311AIVOV63Q1P.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CFNetwork"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/cups.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CUPS-5JEA6YQ4G8YSBKZBG2IZ8016U.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CUPS-9U25I0435OR36B1ZNRXKJ7MF0.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CUPS"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ColorSync.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ColorSync-4D0NGLO5BK11LB97XXUW92YM6.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ColorSync-6HWEBSST2Q5Y5K2AUSD0L3V3Y.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ColorSync"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreAudio.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreAudio-C1YQHHCTH2ZKFYUR6KSYFLFWF.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreAudio-BZOTFLFGYSRPG9PD89JLTG2SM.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreAudio"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreAudioTypes.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreAudioTypes-9KYYFXBDKDKQUB7DW30T5ML1H.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreAudioTypes-AQKBDXE10N9H8WM6MPNGH0LK2.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreAudioTypes"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreBluetooth.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreBluetooth-1CKY4X5W9GMOPOXC7MWXQ5RM1.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreBluetooth-495N60H0IVZHWOYI6YR3ZTFK8.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreBluetooth"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreData.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreData-9WJCSE9O1YCER3GTEX0QMAKU0.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreData-8SBQUP5MELUAAA5NV7U3WOQNJ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreData"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreFoundation-37UIRSTJBU8YH102ZOF5YNMNM.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreFoundation-65WAB77CUYTUL7TVG54CGWLS5.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreFoundation"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreGraphics.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreGraphics-3LIY46LZUXO6PECFJ7AGKDBE.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreGraphics-2T5A4M3993E3AX5SNJDJXIRGH.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreGraphics"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreImage.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreImage-DSCTGH8YQ7802L2LYM326O2SP.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreImage-DUQRWARLDWZ8JJ8ZM01OQKLT4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreImage"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreMedia.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreMedia-34IOVUFNO3P2S3ZG5DQD2JDMO.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreMedia-4X0K5YF057J8XKD33EHFNMFXR.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreMedia"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreServices.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreServices-6B8N8ILZUM7W81WRT7EL3W9VW.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreServices-AE624E0NCIVIRBXLRKQGTGTLP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreServices"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreText.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreText-CQSSBP7KTBXAI7RHP15FKNVK2.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreText-8UEKPYZ561GYWMN38SRP71ZMP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreText"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreTransferable.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreTransferable-1Y7GH0N8L5ANNQOV5QMKHL0Y2.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreTransferable-EA34M7QYDRGEKUMDNJA7SCR3N.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreTransferable"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/CoreVideo.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreVideo-1AJJM8DA32HUK1N13VXH50TO.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/CoreVideo-5C5ZH228Z12Q8ZXYVHYOSO61O.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreVideo"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/Darwin.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Darwin-3SA3ZAPX43NZI4DZ105N8R618.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Darwin-5AFIU5JLOQ082BZF0LFRHOTAX.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Darwin"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/DataDetection.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/DataDetection-J50OXB8FTFQ2L25IO18Q0R4H.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/DataDetection-6B210HB7QVDOW23IV3M0HCTAP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DataDetection"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/DeveloperToolsSupport.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-D7A8WU9QSEUUAYJQQM3R1COA7.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-BXINH0JC20F53REIJCCLH73AC.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DeveloperToolsSupport"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/DiskArbitration.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/DiskArbitration-X886YJJDF0O17KPV3US0OWWP.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/DiskArbitration-8W65V0SK11X6QU9V9FIGVXS6V.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DiskArbitration"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/dispatch.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Dispatch-4FGJDSZCXH5W29MOMWVKSMOEJ.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Dispatch-BY5II8IPD156PMLQG0YZSURI9.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Dispatch"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Foundation-A6TYGX8C8WJA4W6L6TGC4M15H.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Foundation-6762IIXQ41VRGZYIR1LENFYM2.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Foundation"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/IOKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/IOKit-84WRMC36IVAI87EPHNPPRCKOW.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/IOKit-SUVFL641447N0WTAAT23TYC4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "IOKit"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/IOSurface.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/IOSurface-E1ELQ8VZV6JDT65JE3SZIYWGY.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/IOSurface-AINI3YK2JKU22NL5OC1DIBR2K.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "IOSurface"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ImageIO.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ImageIO-BA4DUVBKCFYD9L8Q5XQJSCTNP.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ImageIO-C6BDS3OOGUAHTK41JRGI6NXM1.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ImageIO"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinBasic.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/MachO-6VC6HKKXRU72CY7OBZNV4KFWX.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/MachO-1J6SDFFPYIP9BZ9ZYNZH2SIIA.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "MachO"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Metal.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Metal-BQ765JYHSCKLP0B4YWO04NFKI.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Metal-7VBI7X8NGUNFLRB3SL5RVY7J5.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Metal"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/OSLog.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/OSLog-78YLW1M82SZ0MPW7TDLBMEEA4.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/OSLog-7VV31AZVVJ1SHH5HLKTMI3II4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "OSLog"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/ObjectiveC.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ObjectiveC-A6OCWDGQD1M1LRLYCEKUVZ5E4.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ObjectiveC-79RHPLDECAELQGGJ9B8YWRT5T.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ObjectiveC"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/OpenGL.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/OpenGL-5NYG5V6NLJE7LWPEDCGNIS21U.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/OpenGL-CVKOTH4BE5SV2RHL0NYOHNQ5G.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "OpenGL"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/QuartzCore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/QuartzCore-64B7H1MDRPMFQ2K8YDMU4LKFA.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/QuartzCore-9FWJ7WPVUOZP6LHGG95ADJH2K.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "QuartzCore"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Security-159OEAWKYIN94GOPIZ0CTKEIW.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Security-772LSY35AW6TOL9JRK87R2BDK.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Security"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/Spatial\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Spatial-AER27GA9PZTTO4UEHDZFYI5S6.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Spatial-5W03TQ12YNAVW3TD9F2B0HXFJ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Spatial"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/SwiftShims-EHRH5UZ4CC0C9EGJ10WUS3EI6.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/SwiftShims-25E66WII1K34CNPB60O9Q3H6L.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftShims"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/SwiftUI.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/SwiftUI-62TKXKG80F091OP0IVTKS8G0K.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/SwiftUI-ARNUORYNOLG2FRCYF5G7CX5AB.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftUI"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/SwiftUICore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/SwiftUICore-2B699TKPU40IAC10YBY14Z8KX.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/SwiftUICore-4R56WI3TPK1ML3VELCFVHXTH0.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftUICore"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Symbols.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Symbols-BDFCPBEQC93HKO94QL1XJWU1Z.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/Symbols-9X30A6OGTR1W4OBFX3CC5VO3Y.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Symbols"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/UniformTypeIdentifiers.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-MCVJ8L9H8Q1WM449RJDJEMPO.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-YJEPRMSR7S8035799U575O4Y.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "UniformTypeIdentifiers"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/xpc.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/XPC-71J94DRLGHWTTMESWEHMM1LPX.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/XPC-11VKLRS192YIU4PKM1O4FJ3HN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "XPC"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-BWEQA5HJE4JKFEFK84BK456DV.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-7PZGFXFP649S4UGFFMDF6AC7U.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_AvailabilityInternal"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_float-8INKN34NC31EVY8XPFD3FBMPB.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_float-4ARBILURPP2O93LY1GQBZ2QM9.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_float"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-AF0PBLR3N2I1FVK1DVEJE7SJW.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-5210IIKZMUDIKAOYE3SKMD2VL.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_intrinsics"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-6YXGCUUFXXN54BEVLK9CSHTSU.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-926DAFD1NPW1RF2HH5TZ9J41A.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_inttypes"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_limits-B8DAIKYNTI5ZUM6YJODRHU0LX.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_limits-DWIM9020DAKV1O1PMJN9VECXE.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_limits"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-XYLD5JKZQA9NMWJ2F1IYZGFX.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-9NNOH3DFCNQZ0NN03FFPRQN0R.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdarg"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-AX8QI9RUEWLXWWHBGIAXLIPMU.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-9T91FAWUY5711ZP1ZKFJIZRWS.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdatomic"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-EV11GORAMUW8987TXQ8QUNUD.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-9D1RKVLINXBK3CYNYJ3OLDUG2.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdbool"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stddef-C8BLX9SRSGQGH523V84YD1NKH.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stddef-3770JWSHVEETDEGH84W1KUKBP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stddef"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdint-19PMCPHAKGDXL73X0ID9D35U5.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_stdint-7OQ6Z3IGKI16XOQ1SL7FIUPG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdint"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-166Y2ANM18B6C8H6DOB5M2ATB.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-BNSA0IAJ3O6WTVI85Q0VKHA0Q.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_tgmath"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-VUC86NM233P6WKLLN018WDLL.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-7HX3KHM2H1H134R35KML1EFMY.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation1"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-E6OX7WO177DILY8QL9YPZ06I1.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-3GSHBG6GES3RXSUKGOM6DMS03.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation2"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation3.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-20QA74TDRVOKYPKC3YNE9ANJP.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-DTA619C6YNCJFWDDRI2EIUW1E.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation3"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-XPH88PV2FYMZWZ0N2A2O3UUJ.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-ABFOIC4UH38GT3EGBVQJA7VW2.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_SwiftConcurrencyShims"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/launch.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/launch-34GDLIT1DO4BM6S2R5SXAUPX5.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/launch-1IK2W2J7WLAQSEUCTEY7FTPZ9.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "launch"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/libDER\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/libDER-4OH0PD24VE84RBCHLA4G1U4QH.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/libDER-43UQ2VC5G1534AYMJGO7Q1998.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "libDER"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/libkern.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/libkern-8F6ITBGMS9WKBMIZC2W64DZZI.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/libkern-30YWGDS9UXGPCN10VHIH5RL17.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "libkern"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/os-8BGKIP6XYF0UNB6AK8MSJ9Y21.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/os-26PZYDK866PRC5ZXAXNY545SW.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/os_object-8LDPE5QZXGLSMYGKF4OYCRIRS.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/os_object-8AYRQUWVZI7ZLKUPRIR9WBK2A.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os_object"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/os_workgroup-E7XFWMIFKT0U6RYGYBIGWC8AA.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/os_workgroup-B9LXYPTYU5S91DD66GLZIQAQ6.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os_workgroup"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ptrauth-3YKH0RPY97AXVBQSXUYY5WVD6.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ptrauth-8T4QUJ0AQNG4B588WG93FJDHN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrauth"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ptrcheck-53C0BINHA0LFX02YP76HWHK3Z.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/ptrcheck-6V3WKLPNLVGMNYN6029WM96MF.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrcheck"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/simd\/module.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/simd-A0CC259R5T0LNVJNYIM42NMHU.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/simd-2GZNVCM9RJ0Y7CZMDT6JB8EC8.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "simd"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/c_standard_library.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/string_h-DTXCBYMSIX2JCS38V6IRNHXU6.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/string_h-8NSNRCXFRMQ3WPNEX9CZV08RJ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "string_h"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/sys_types-40B867M9PWN5XTQ0CWJV7XIJJ.pcm",
+    "clangModulePath" : "\/Users\/mk\/AndroidStudioProjects\/flypad_driver\/FlypadDriverMac\/build\/SDKExplicitPrecompiledModules\/sys_types-DWYTODANHC6TQ2E7AXJ02L4NC.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "sys_types"

@@ -69,7 +69,7 @@ public final class FlypadBLEManager: NSObject, ObservableObject {
     public func startScan() {
         log("startScan requested. Central state: \(centralManager.state.rawValue)")
         guard centralManager.state == .poweredOn else {
-            let errMsg = "Bluetooth power state is \(centralManager.state.rawValue) (not poweredOn)"
+            let errMsg = describeCentralState(centralManager.state)
             logError(errMsg)
             connectionState = .error(errMsg)
             return
@@ -189,6 +189,25 @@ public final class FlypadBLEManager: NSObject, ObservableObject {
         }
     }
 
+    private func describeCentralState(_ state: CBManagerState) -> String {
+        switch state {
+        case .poweredOn:
+            return "Bluetooth Powered On"
+        case .unauthorized:
+            return "Bluetooth Permission Required. Please allow Bluetooth access in macOS System Settings > Privacy & Security > Bluetooth."
+        case .poweredOff:
+            return "Bluetooth is Turned Off. Please enable Bluetooth in your Mac Menu Bar."
+        case .unsupported:
+            return "Bluetooth Low Energy is not supported on this Mac."
+        case .resetting:
+            return "Bluetooth hardware is resetting..."
+        case .unknown:
+            return "Bluetooth state is unknown. Initializing..."
+        @unknown default:
+            return "Bluetooth state code: \(state.rawValue)"
+        }
+    }
+
     private func log(_ message: String) {
         logger.info("\(message, privacy: .public)")
         print("[FlypadBLE] \(message)")
@@ -203,11 +222,12 @@ public final class FlypadBLEManager: NSObject, ObservableObject {
 extension FlypadBLEManager: CBCentralManagerDelegate {
     nonisolated public func centralManagerDidUpdateState(_ central: CBCentralManager) {
         Task { @MainActor in
-            self.log("Central manager updated state: \(central.state.rawValue)")
+            self.log("Central manager updated state: \(central.state.rawValue) (\(central.state))")
             if central.state == .poweredOn {
                 self.attemptAutoReconnect()
             } else {
-                self.connectionState = .error("Bluetooth state: \(central.state.rawValue)")
+                let msg = self.describeCentralState(central.state)
+                self.connectionState = .error(msg)
             }
         }
     }
