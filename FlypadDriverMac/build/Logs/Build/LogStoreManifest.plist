@@ -48,7 +48,7 @@
 			<key>uniqueIdentifier</key>
 			<string>174714C3-C480-4F66-950A-84A49A27B11A</string>
 		</dict>
-		<key>1790D0FD-2EB8-4FA2-A06A-DE5480922B8B</key>
+		<key>573AEDC4-AA89-4D33-98E6-CC6E724D29F9</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1790D0FD-2EB8-4FA2-A06A-DE5480922B8B.xcactivitylog</string>
+			<string>573AEDC4-AA89-4D33-98E6-CC6E724D29F9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,181 +82,13 @@
 			<key>signature</key>
 			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>816250679.06143498</real>
+			<real>816396282.18761003</real>
 			<key>timeStoppedRecording</key>
-			<real>816250680.11898804</real>
+			<real>816396297.22369802</real>
 			<key>title</key>
 			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>1790D0FD-2EB8-4FA2-A06A-DE5480922B8B</string>
-		</dict>
-		<key>1A39D6C7-C300-4A31-A373-173E73253B9E</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1A39D6C7-C300-4A31-A373-173E73253B9E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>FlypadDriverMac project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>FlypadDriverMac</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>timeStartedRecording</key>
-			<real>816250441.96336305</real>
-			<key>timeStoppedRecording</key>
-			<real>816250442.98176706</real>
-			<key>title</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>uniqueIdentifier</key>
-			<string>1A39D6C7-C300-4A31-A373-173E73253B9E</string>
-		</dict>
-		<key>8E795AD7-453B-49F7-82C4-3E8850187D93</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8E795AD7-453B-49F7-82C4-3E8850187D93.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>FlypadDriverMac project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>FlypadDriverMac</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>timeStartedRecording</key>
-			<real>816250254.73055696</real>
-			<key>timeStoppedRecording</key>
-			<real>816250254.99195802</real>
-			<key>title</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>uniqueIdentifier</key>
-			<string>8E795AD7-453B-49F7-82C4-3E8850187D93</string>
-		</dict>
-		<key>C426AD4A-C28F-46DA-9F41-ABF0DB3A9282</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C426AD4A-C28F-46DA-9F41-ABF0DB3A9282.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>FlypadDriverMac project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>FlypadDriverMac</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>timeStartedRecording</key>
-			<real>816250592.60343301</real>
-			<key>timeStoppedRecording</key>
-			<real>816250593.47666001</real>
-			<key>title</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>uniqueIdentifier</key>
-			<string>C426AD4A-C28F-46DA-9F41-ABF0DB3A9282</string>
-		</dict>
-		<key>E59DABA9-A468-4583-A29C-AF5E25411242</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E59DABA9-A468-4583-A29C-AF5E25411242.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>FlypadDriverMac project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>FlypadDriverMac</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>timeStartedRecording</key>
-			<real>816250527.33878803</real>
-			<key>timeStoppedRecording</key>
-			<real>816250528.88596106</real>
-			<key>title</key>
-			<string>Building project FlypadDriverMac with scheme FlypadDriverMac and configuration Release</string>
-			<key>uniqueIdentifier</key>
-			<string>E59DABA9-A468-4583-A29C-AF5E25411242</string>
+			<string>573AEDC4-AA89-4D33-98E6-CC6E724D29F9</string>
 		</dict>
 	</dict>
 </dict>
